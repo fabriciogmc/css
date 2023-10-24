@@ -1,0 +1,25 @@
+/* Autor: Fabrício Galende Marques de Carvalho */
+#imagem{
+	display: block;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+}
+
+#titulo{
+	text-align: center; 
+	/* Utilizar display block
+	   e margin auto para esse caso
+	   não alinhará o título, pois o
+	   título já é um bloco que ocupa
+	   uma linha inteira e o texto 
+	   interno está alinhado originalmente
+	   do lado esquerdo. Experimente
+	   alterar a cor de fundo do 
+	   texto com background-color para
+	   visualizar isso. */
+}
+
+#paragrafo{
+	font-family: courier;
+}
